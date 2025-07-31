@@ -1,0 +1,76 @@
+body {
+    height: 80vh;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+button {
+    padding: 15px;
+    height: 50px;
+    width: 170px;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+}
+
+.b1 {
+    background: linear-gradient(to right, #26ADDD, #3EE09B);
+    box-shadow: 0 0 20px rgba(66, 159, 139, 0.6);
+}
+
+.b2 {
+    background: linear-gradient(to right, #F4C25B, #E53E08);
+    box-shadow: 0 0 20px rgba(214, 140, 71, 0.6);
+}
+
+.b3 {
+    background: linear-gradient(to right, #677AE4, #754DA4);
+    box-shadow: 0 0 20px rgba(201, 87, 216, 0.6);
+}
+
+.b4 {
+    background: linear-gradient(to right, #FC6472, #FF9846);
+    box-shadow: 0 0 20px rgba(237, 144, 56, 0.6);
+}
+
+.b5 {
+    background: linear-gradient(to right, #0DA462, #39B98F);
+    box-shadow: 0 0 20px rgba(66, 202, 8, 0.6);
+}
+
+.b6 {
+    background: linear-gradient(to right, #129843, #F2EA22);
+    box-shadow: 0 0 20px rgba(81, 163, 47, 0.6);
+}
+
+.b7 {
+    background: linear-gradient(to right, #6351DD, #842F95);
+    box-shadow: 0 0 20px rgba(214, 107, 212, 0.6);
+}
+
+.b8 {
+    background: linear-gradient(to right, #2C3540, #475462);
+    box-shadow: 0 0 20px rgba(10, 7, 10, 0.6);
+}
+
+.b9 {
+    background: linear-gradient(to right, #26A8E1, #4283EA);
+    box-shadow: 0 0 20px rgba(31, 128, 189, 0.6);
+}
+
+.b10 {
+    background: linear-gradient(to right, #ED709D, #EC8A6D);
+    box-shadow: 0 0 20px rgba(210, 57, 103, 0.6);
+}
+
+.b11 {
+    background: linear-gradient(to right, #EC3C44, #F15C62);
+    box-shadow: 0 0 20px rgba(216, 37, 37, 0.6);
+}
