@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    columns: 6;
+}
+
+.container
+{
+    margin: 5px;
+}
+
+.image img{
+    margin: 5px;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    object-fit: cover;
+}
