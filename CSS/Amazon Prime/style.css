@@ -1,0 +1,244 @@
+@font-face {
+    font-family: "amazon";
+    src: url('./assets/fonts/amazon-ember/Amazon\ Ember.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "amazon";
+  /* position: relative; */
+    box-sizing: border-box;
+  background-color: black;
+
+}
+
+
+.nav-bar{
+    height: 60px;
+    background-color:#00050D;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+h3{
+    font-size: 23px;
+    padding-left: 20px;
+}
+
+nav{
+    color: white;
+    display: flex;
+    gap: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.nav-1{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+nav a:hover
+{ 
+    background-color: white;
+    color: #00050D;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00050D;
+    color: white;
+    padding-left: 30px;
+}
+
+.nav-bar-2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.join-prime-btn{
+    padding:15px;
+    height: 46px;
+    width: 112px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 30px;
+    font-weight: 550;
+    color: white;
+    background-color: #1A98FF;
+}
+
+.join-prime-btn:hover{
+    box-shadow:0 0 15px rgba(182, 162, 162, 0.8);
+}
+.section-1,.section-2,.section-3{
+    height: 100%;
+    width: 100%;
+  display: flex;
+  align-items: center;   
+  justify-content:end ;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.section-1 img{
+     height: 675px;
+    width: 1300px;
+    /* object-fit: contain; */
+  background-size: contain;
+}
+.section-2 img{
+    height: 675px;
+    width: 1300px;
+    /* object-fit: contain; */
+  background-size: contain;
+
+}
+
+.info-1,.info-2,.info-3{
+    width: 435px;
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section-1 h1{
+    width: 600px;
+    font-size: 50px;
+    font-weight:bolder;
+}
+
+.section-1 p{
+    width: 600px;
+    font-size: 21px;
+}
+
+.sign-in-btn,.rent-now-btn{
+    height: 55px;
+    width: 205px;
+    font-size: 18px;
+    border-radius: 7px;
+    padding: 8px 18px;
+    font-weight: 540;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.sign-in-btn:hover{
+    transform: scale(1.1);
+    color: gray;
+}
+
+.rent-now-btn{
+     height: 55px;
+    width: 140px;
+}
+
+.rent-now-btn:hover{
+    transform: scale(1.1);
+    font-weight: 540;
+    color: gray;
+}
+
+.section-2 h1{
+    width: 650px;
+    font-size: 50px;
+}
+
+.section-2 p{
+    font-size: 20px;
+    width: 600px;
+}
+.section-3{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: #00050D;
+}
+
+.section-3 h1{
+    font-size: 50px;
+}
+
+.info-3{
+    position:absolute;
+    top: 170px;
+    width: 550px;
+}
+
+.section-3 p{
+    width: 600px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.img-container{
+    position: absolute;
+    right: 30px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.img{
+    height: 158px;
+    width: 218px;
+    border-radius: 12px;
+    border: none;
+}
+
+.img:hover{
+    box-shadow:0 0 10px rgba(182, 162, 162, 0.8) ;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 140px;
+    background-color: #222222;
+}
+
+.logo{
+    width: 158px;
+    height: 35px;
+}
+
+.footer p{
+    font-size: 17px;
+    color: #756748;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #90DFF0;
+    margin: 10px;
+}
