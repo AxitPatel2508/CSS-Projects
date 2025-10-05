@@ -1,0 +1,9 @@
+.accordion{
+    border: 1px solid rgb(185, 181, 181);
+    box-shadow: 0 0 10px rgb(224, 220, 220);
+}
+
+.nav-item:hover{
+    color: rgb(223, 163, 80);
+    cursor: pointer;
+}
