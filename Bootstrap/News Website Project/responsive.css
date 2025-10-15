@@ -1,0 +1,16 @@
+@media (max-width:800px) {
+    .full-width {
+        width: 100%;
+    }
+    .image{
+        margin-top: 0;
+        padding: 0;
+    }
+    
+}
+
+@media (min-width:991px) {
+    .card-sec {
+        width: 60%;
+    }
+}
